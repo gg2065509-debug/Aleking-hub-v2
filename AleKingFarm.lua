@@ -11,10 +11,12 @@ local LibraryData = { game:HttpGet("https://raw.githubusercontent.com/p4020854-h
 local Library = loadstring(unpack_fn(LibraryData))
 local UI = Library()
 
-local Window = UI:AddWindow("Genesis Hub FULL DEOBUSCATED by xXDEATHKINGXx | Hello " .. LocalPlayer.DisplayName, {
+local Window = UI:AddWindow("AleKing | PRIVATE FARMING", {
     main_color = Color3.fromRGB(0, 0, 0),
+    background_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(680, 870),
-    can_resize = true
+    can_resize = true,
+    icon = "rbxassetid://85099497918857"
 })
 
 local MainTab = Window:AddTab("Main")
@@ -1051,7 +1053,7 @@ local teleportPoints = {
     { name = "Spawn",          pos = Vector3.new(2, 8, 115) },
     { name = "Secret Area",    pos = Vector3.new(1947, 2, 6191) },
     { name = "Tiny Island",    pos = Vector3.new(-34, 7, 1903) },
-    { name = "Frozen Island",  pos = CFrame.new(-2600.00244, 3.67686558, -403.884369, 0.0873617008, 1.0482899e-09, 0.99617666, 3.07204253e-08, 1, -3.7464023e-09, -0.99617666, 3.09302628e-08, 0.0873617008) },
+    { name = "Frozen Island",  pos = CFrame.new(-2600.00244, 3.67686558, -403.884369, 0.0873617008, 1.0482899e-09, 0.99617666, 3.07204253e-08, 1, -3.7464023e-09, -0.99617666, 3.09302628e-08, 0.0873617068) },
     { name = "Mythical Island", pos = Vector3.new(2255, 7, 1071) },
     { name = "Hell Island",    pos = Vector3.new(-6768, 7, -1287) },
     { name = "Legend Island",  pos = Vector3.new(4604, 991, -3887) },
